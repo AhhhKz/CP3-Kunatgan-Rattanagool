@@ -26,7 +26,7 @@ if login() == True :
     showmenu()
     if Menu() == 1:
         print(VAT(int(input("Enter Your Price : "))))
-    if Menu() == 2:
-        print(Price())
+    else:
+        print("Total price :",Price())
 else:
     print("Wrong Username or Password")
